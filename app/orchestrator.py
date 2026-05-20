@@ -1,7 +1,7 @@
-from agents.planner import planner_agent
-from agents.researcher import research_agent
-from agents.coder import coder_agent
-from agents.reviewer import reviewer_agent
+from app.agents.planner import planner_agent
+from app.agents.researcher import research_agent
+from app.agents.coder import coder_agent
+from app.agents.reviewer import reviewer_agent
 
 def run_multi_agent_system(task):
     plan = planner_agent(task)

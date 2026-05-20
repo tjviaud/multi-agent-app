@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from orchestrator import run_multi_agent_system
+from app.orchestrator import run_multi_agent_system
 
 app = FastAPI()
 
